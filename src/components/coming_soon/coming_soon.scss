@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  img {
+    display: block;
+    max-width: 500px;
+  }
+}
