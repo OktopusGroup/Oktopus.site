@@ -1,0 +1,22 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-image: linear-gradient(100deg, #F8A36F 0%, #ED5E5B 65%, #F0615F 76%, #F56868 100%);
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.body {
+
+  text-align: center;
+  padding: 10px 0 0px 0;
+  margin-bottom: 50px;
+  p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: "Open Sans";
+    margin-bottom: 50px;
+  }
+}

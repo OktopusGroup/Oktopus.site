@@ -1,0 +1,45 @@
+.body {
+  fieldset {
+    border: none;
+  }
+  input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #149fd7;
+    line-height: 35px;
+    outline: none;
+    text-align: center;
+  }
+  input:active {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #149fd7;
+    line-height: 35px;
+    outline: none;
+    text-align: center;
+  }
+  input:focus {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #149fd7;
+    line-height: 35px;
+    outline: none;
+    text-align: center;
+  }
+  input:visited {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #149fd7;
+    line-height: 35px;
+    outline: none;
+    text-align: center;
+  }
+}
