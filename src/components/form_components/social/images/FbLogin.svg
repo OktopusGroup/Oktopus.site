@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="31px" viewBox="0 0 14 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI/Login/FB" transform="translate(-23.000000, -15.000000)" fill="#1C96FB">
+            <path d="M32.3519027,45.1437561 L32.3519027,30.1699451 L36.4772235,30.1699451 L37.0239176,25.0098869 L32.3519027,25.0098869 L32.3589116,22.4272281 C32.3589116,21.0814054 32.486532,20.3602829 34.4157312,20.3602829 L36.9947138,20.3602829 L36.9947138,15.1996403 L32.868809,15.1996403 C27.9129337,15.1996403 26.1685941,17.7028237 26.1685941,21.912391 L26.1685941,25.0104712 L23.0794222,25.0104712 L23.0794222,30.1705295 L26.1685941,30.1705295 L26.1685941,45.1437561 L32.3519027,45.1437561 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

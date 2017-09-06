@@ -4,7 +4,7 @@ import React from 'react';
 import css from './header.scss'
 
 // import media
-import logo from './images/logo.png'
+import logo from './images/logo.svg'
 
 // Create component for button
 const Header = (props) => {

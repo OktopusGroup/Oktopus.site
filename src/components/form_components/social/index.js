@@ -4,8 +4,8 @@ import React from 'react';
 import css from './social.scss';
 
 // import media
-import facebook from './images/btn-facebook.svg';  
-import linkedin from './images/btn-linkedin.svg';  
+import facebook from './images/FbLogin.svg';  
+import linkedin from './images/LiLogin.svg';  
 
 // import form components
 import Button from '../button'
