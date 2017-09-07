@@ -14,12 +14,14 @@ import Social from 'src/components/form_components/social';
 const LoginBox = () => ( 
     <div className={css.body}>
         <img src={logo} alt={'Oktopus Logo'} />
-        <Input type={"email"} placeholder={"Username"} />
-        <Input type={"password"} placeholder={"Password"} />  
+        <Input type={"email"} placeholder={"username"} />
+        <Input type={"password"} placeholder={"password"} />  
         <Social />
         <Button text={'Login'} />
-        <div className={css.forgotLink}>
+        <div className={css.bottomLinks}>
+        <Button text={'Sign up'} anchor={true} />
         <Button text={'Forgot?'} anchor={true} />
+
         </div>
     </div>
 );

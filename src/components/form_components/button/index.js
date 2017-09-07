@@ -6,7 +6,7 @@ import css from './button.scss';
 
 const Button = (props) => {
     return ( 
-      <section className={css.btnSection}>
+      
         <a          
           onClick={props.handleClick || ''}
           className={props.classes || ( props.anchor ? css.btnAnchor : css.btnLandingDefault)}
@@ -15,7 +15,7 @@ const Button = (props) => {
           { props.text || 'Button'} 
         </a>
 
-      </section>
+     
     );
 
 };

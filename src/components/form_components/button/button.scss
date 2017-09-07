@@ -15,10 +15,9 @@
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   font-size: 18px;
-  width: 240px;
-  height: 50px;
-  padding: auto 30px;
-  line-height: 50px;  
+  width: 160px;
+  height: 40px;  
+  line-height: 40px;  
   text-align: center;
   margin: 0px auto 0;
   background-image: linear-gradient(284deg, #f8a36f, #f56868);
@@ -42,5 +41,8 @@
 
 .btnAnchor {
   text-decoration: none;
-  color: #bbb;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #8d95a3;
 }
