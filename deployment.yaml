@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: oktopus-web
-        image: gcr.io/oktopus-171519/github-oktopusgroup-site:0.1.0
+        image: gcr.io/oktopus-171519/github-oktopusgroup-site:0.1.1
         imagePullPolicy: Always
         ports:
         - containerPort: 4000
