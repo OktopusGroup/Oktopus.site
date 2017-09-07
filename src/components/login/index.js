@@ -5,10 +5,12 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-// form components
-import Header from '../form_components/header';
-import Button from '../form_components/button';
+/* Local */
+
+// Components
+import Header from 'src/components/form_components/header';
 import LoginBox from './loginBox';
+
 // Styles
 import css from './login.scss';
 
@@ -27,9 +29,9 @@ export default () => (
         },
       ]} />
     <Header />
-   <div className={css.body}>
-    <p> Where social communities are born </p>
-    <LoginBox />
-   </div>
+    <div className={css.body}>
+      <p> Where social communities are born </p>
+      <LoginBox />
+    </div>
   </div>
 );

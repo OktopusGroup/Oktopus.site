@@ -3,43 +3,33 @@
     border: none;
   }
   input {
-    width: 100%;
+    width: 200px;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #149fd7;
+    border-bottom: solid 0.5px #1c96fb;
     line-height: 35px;
     outline: none;
     text-align: center;
+    box-shadow: 0 0.5px 0px 0 rgba(196, 196, 196, 0.5);
+    font-family: WorkSans;
+    font-size: 14px;
+    text-align: center;
+    color: #d7dade;
+  }  
+  input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d7dade;
   }
-  input:active {
-    width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #149fd7;
-    line-height: 35px;
-    outline: none;
-    text-align: center;
+  input::-moz-placeholder { /* Firefox 19+ */
+    color: #d7dade;
   }
-  input:focus {
-    width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #149fd7;
-    line-height: 35px;
-    outline: none;
-    text-align: center;
+  input:-ms-input-placeholder { /* IE 10+ */
+    color: #d7dade;
   }
-  input:visited {
-    width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #149fd7;
-    line-height: 35px;
-    outline: none;
-    text-align: center;
+  input:-moz-placeholder { /* Firefox 18- */
+    color: #d7dade;
   }
 }
+
+
+

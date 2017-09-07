@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: oktopus
+spec:
+  selector:
+    app: oktopus-web
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 4000
+  type: LoadBalancer

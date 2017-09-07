@@ -1,19 +1,24 @@
+// ----------------------
+// IMPORTS
+
+/* NPM */
 import React from 'react';
 
-// import scss
-import css from './header.scss'
+/* Local */
 
-// import media
-import logo from './images/logo.png'
+// Styles
+import css from './header.scss';
+
+// Images
+import logo from './images/logo.svg';
+
+// ----------------------
 
 // Create component for button
-const Header = (props) => {
-    return ( 
-      <div className={css.body}>
-        <img src={logo} />
-      </div>
-    );
+const Header = () => (
+  <div className={css.body}>
+    <img src={logo} alt="Oktopus" />
+  </div>
+);
 
-};
-
-export default Header
+export default Header;

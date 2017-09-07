@@ -1,28 +1,36 @@
+// ----------------------
+// IMPORTS
+
+/* ReactQL */
 import React from 'react';
 
-// import scss 
-import css from './box.scss'
+/* Local */
 
-// import media
-import logo from './images/logo.png'
+// import form components
+import Button from 'src/components/form_components/button';
+import Input from 'src/components/form_components/input';
+import Social from 'src/components/form_components/social';
 
-//import form components
-import Button from '../../form_components/button';
-import Input from '../../form_components/input';
-import Social from '../../form_components/social';
+// Styles
+import css from './box.scss';
 
-const LoginBox = (props) => {
-    return ( 
-      <div className={css.body}>
-        <img src={logo} />
-        <Input type={"email"} placeholder={"Email Address"} />
-        <Input type={"password"} placeholder={"Password"} />  
-        <Social />
-        <Button text={'Login'} />
-        <Button text={'Forgot?'} anchor={true} />
-      </div>
-    );
+// Images
+import logo from './images/logo.svg';
 
-};
+// ----------------------
 
-export default LoginBox
+const LoginBox = () => (
+  <div className={css.body}>
+    <img src={logo} alt="Oktopus Logo" />
+    <Input type="email" placeholder="username" />
+    <Input type="password" placeholder="password" />
+    <Social />
+    <Button text="Login" />
+    <div className={css.bottomLinks}>
+      <Button text="Sign up" hasAnchor />
+      <Button text="Forgot?" hasAnchor />
+    </div>
+  </div>
+);
+
+export default LoginBox;

@@ -1,24 +1,33 @@
-import React from 'react';
+// ----------------------
+// IMPORTS
 
-// import scss
+/* NPM */
+import React from 'react';
+import PropTypes from 'prop-types';
+
+/* Local */
+
+// Styles
 import css from './button.scss';
 
+// ----------------------
 
-const Button = (props) => {
-    return ( 
-      <section className={css.btnSection}>
-        <a          
-          onClick={props.handleClick || ''}
-          className={props.classes || ( props.anchor ? css.btnAnchor : css.btnLandingDefault)}
-          href={"#"}
-        >
-          { props.text || 'Button'} 
-        </a>
+const Button = props => (
+  <a
+    className={props.classes || (props.hasAnchor ? css.btnAnchor : css.btnLandingDefault)}
+    href="" >{props.text || 'Button'}</a>
+);
 
-      </section>
-    );
-
+Button.propTypes = {
+  hasAnchor: PropTypes.bool.isRequired,
+  classes: PropTypes.string,
+  text: PropTypes.string,
 };
 
+Button.defaultProps = {
+  hasAnchor: false,
+  classes: null,
+  text: null,
+};
 
-export default Button
+export default Button;
