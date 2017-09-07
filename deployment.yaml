@@ -1,0 +1,17 @@
+apiVersion: apps/v1beta1 # for versions before 1.6.0 use extensions/v1beta1
+kind: Deployment
+metadata:
+  name: oktopus-zone
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: oktopus-web
+    spec:
+      containers:
+      - name: oktopus-web
+        image: gcr.io/oktopus-171519/github-oktopusgroup-site:0.1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4000

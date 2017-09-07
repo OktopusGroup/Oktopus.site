@@ -5,8 +5,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-// form components
-import Header from '../form_components/header';
+/* Local */
+
+// Components
+import Header from 'src/components/form_components/header';
 import LoginBox from './loginBox';
 
 // Styles
