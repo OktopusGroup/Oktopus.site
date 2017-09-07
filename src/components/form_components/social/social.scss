@@ -9,9 +9,9 @@
     text-align: center;
     display: inline-block;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 20px;
     img {
-      height: auto;
+      margin-top:13px;
     }
   }
 }
@@ -20,8 +20,6 @@
 .btnSocial {
   display: block;
   text-align: center;
-  font-family: Montserrat, roboto, helvetica, sans-serif;
-  font-weight: medium;
   text-decoration: none;
   text-align: center;
   letter-spacing: 1px;
@@ -31,8 +29,9 @@
   box-shadow: 0 12px 18px -10px rgba(25, 74, 179, 0.5);
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  width: 60px;
+  width:60px;
   height: 60px;
+  border: 2px solid #1c96fb;
 }
 
 .btnSocial:hover {

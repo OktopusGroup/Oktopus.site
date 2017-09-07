@@ -18,7 +18,9 @@ const LoginBox = () => (
         <Input type={"password"} placeholder={"Password"} />  
         <Social />
         <Button text={'Login'} />
+        <div className={css.forgotLink}>
         <Button text={'Forgot?'} anchor={true} />
+        </div>
     </div>
 );
 

@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: auto;
   margin: 0;
-  background-image: linear-gradient(100deg, #F8A36F 0%, #ED5E5B 65%, #F0615F 76%, #F56868 100%);
+  background-image: linear-gradient(123deg, #f8a36f, #f17762 41%, #ee615c 63%, #ee5e5b 65%, #f0615f 76%, #f56868);
   background-repeat: no-repeat;
   min-height: 100%;
 }
@@ -13,10 +13,13 @@ body {
   padding: 10px 0 0px 0;
   margin-bottom: 50px;
   p {
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: 100;
+    color: #ffffff;    
     font-family: "Open Sans";
     margin-bottom: 50px;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 0.71;
+    text-align: center;
+    text-shadow: 0 1px 0 #f56868;
   }
 }
