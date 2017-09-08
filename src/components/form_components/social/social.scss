@@ -21,30 +21,40 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: inherit;
   color: #ffffff;
   border-radius: 100px;
-  box-shadow: 0 12px 18px -10px rgba(25, 74, 179, 0.5);
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   width:60px;
   height: 60px;
-  border: 2px solid #1c96fb;
+  border: solid 2px #1c96fb;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.btnSocial:hover {
+.btnSocial:hover, .btnSocial:active  {
+  background-color: #1c96fb;
+  object-fit: contain;
   transform: translateY(-5px);
-  box-shadow: 0 12px 28px 6px rgba(25, 74, 179, 0.15);
   -webkit-transition: all 0.5s ease 0s, transform 400ms !important;
   transition: all 0.5s ease 0s, transform 400ms !important;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.btnSocial:active {
-  -webkit-transition: all 0s linear 0.4s, transform 40ms !important;
-  transition: all 0s linear 0.4s, transform 40ms !important;
-  transform: translateY(-2px);
-  transition: box-shadow 0s linear 0s !important;
-  box-shadow: 0 12px 18px -10px rgba(25, 74, 179, 0.5) !important;
+.facebook {
+  background-image: url(images/fb.svg);
+}
+
+.facebook:hover, .facebook:active {
+  background-image: url(images/fb_hover.svg);
+}
+
+.linkedin {
+  background-image: url(images/li.svg);
+}
+
+.linkedin:hover, .linkedin:active {
+  background-image: url(images/li_hover.svg);
 }

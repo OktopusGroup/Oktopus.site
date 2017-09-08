@@ -12,11 +12,11 @@
     outline: none;
     text-align: center;
     box-shadow: 0 0.5px 0px 0 rgba(196, 196, 196, 0.5);
-    font-family: WorkSans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-align: center;
-    color: #d7dade;
-  }  
+    color: #202022;
+  }
   input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #d7dade;
   }
@@ -30,6 +30,3 @@
     color: #d7dade;
   }
 }
-
-
-

@@ -14,13 +14,13 @@ import css from './button.scss';
 
 const Button = props => (
   <a
-    className={props.classes || (props.hasAnchor ? css.btnAnchor : css.btnLandingDefault)}
-    href="" >{props.text || 'Button'}</a>
+    className={(props.classes ? props.classes.join(' ') : '') || (props.hasAnchor ? css.btnAnchor : css.btnLandingDefault)}
+    href="" >{props.text || ''}</a>
 );
 
 Button.propTypes = {
   hasAnchor: PropTypes.bool.isRequired,
-  classes: PropTypes.string,
+  classes: PropTypes.array,
   text: PropTypes.string,
 };
 

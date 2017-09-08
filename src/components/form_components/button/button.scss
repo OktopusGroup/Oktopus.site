@@ -1,42 +1,26 @@
-.btnSection {
-  
-}
-
-.btnLandingDefault {  
+.btnLandingDefault {
   display: block;
-  text-align: center;
-  font-weight: medium;
   text-decoration: none;
   text-align: center;
-  letter-spacing: 1px;
-  line-height: inherit;
   color: #ffffff;
   border-radius: 100px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   font-size: 18px;
   width: 160px;
-  height: 40px;  
-  line-height: 40px;  
-  text-align: center;
+  height: 40px;
+  line-height: 40px;
   margin: 0px auto 0;
   background-image: linear-gradient(284deg, #f8a36f, #f56868);
-  box-shadow: 0 5px 6px 0 #d7dade;
+  box-shadow: 0 2px 2px 0 #d7dade;
+  object-fit: contain;
 }
 
-.btnLandingDefault:hover {
+.btnLandingDefault:hover, .btnLandingDefault:active {
   transform: translateY(-5px);
-  box-shadow: 0 12px 28px 6px rgba(25, 74, 179, 0.15);
+  box-shadow: 0 5px 6px 0 #d7dade;
   -webkit-transition: all 0.5s ease 0s, transform 400ms !important;
   transition: all 0.5s ease 0s, transform 400ms !important;
-}
-
-.btnLandingDefault:active {
-  -webkit-transition: all 0s linear 0.4s, transform 40ms !important;
-  transition: all 0s linear 0.4s, transform 40ms !important;
-  transform: translateY(-2px);
-  transition: box-shadow 0s linear 0s !important;
-  box-shadow: 0 12px 18px -10px rgba(25, 74, 179, 0.5) !important;
 }
 
 .btnAnchor {
