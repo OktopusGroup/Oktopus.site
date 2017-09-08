@@ -10,8 +10,8 @@ import Button from '../button';
 const Social = () => (
   <div className={css.body}>
     <ul>
-      <li><Button classes={[css.btnSocial, css.facebook]} /></li>
       <li><Button classes={[css.btnSocial, css.linkedin]} /></li>
+      <li><Button classes={[css.btnSocial, css.facebook]} /></li>
     </ul>
   </div>
 );
