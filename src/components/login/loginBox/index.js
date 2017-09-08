@@ -22,7 +22,7 @@ import logo from './images/logo.svg';
 const LoginBox = () => (
   <div className={css.body}>
     <img src={logo} alt="Oktopus Logo" />
-    <Input type="email" placeholder="username" />
+    <Input type="email" placeholder="email" />
     <Input type="password" placeholder="password" />
     <Social />
     <Button text="Login" />
